@@ -1,0 +1,122 @@
+[
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 1,
+      "fields": {
+        "first_name": "John",
+        "last_name": "Lennon"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 2,
+      "fields": {
+        "first_name": "Paul",
+        "last_name": "McCartney"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 3,
+      "fields": {
+        "first_name": "Ricky",
+        "last_name": "Martin"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 4,
+      "fields": {
+        "first_name": "Skeeta",
+        "last_name": "Davis"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 5,
+      "fields": {
+        "first_name": "Chaka",
+        "last_name": "Khan"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 6,
+      "fields": {
+        "first_name": "Roberta",
+        "last_name": "Flack"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 7,
+      "fields": {
+        "first_name": "Teddy",
+        "last_name": "Pendergrass"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 8,
+      "fields": {
+        "first_name": "Luther",
+        "last_name": "Vandross"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 9,
+      "fields": {
+        "first_name": "Whitney",
+        "last_name": "Houston"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 10,
+      "fields": {
+        "first_name": "Dionne",
+        "last_name": "Warwick"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 11,
+      "fields": {
+        "first_name": "Billy",
+        "last_name": "Joel"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 12,
+      "fields": {
+        "first_name": "Frank",
+        "last_name": "Sinatra"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 13,
+      "fields": {
+        "first_name": "Michael",
+        "last_name": "Jackson"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 14,
+      "fields": {
+        "first_name": "Ray",
+        "last_name": "Parker Jr"
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser",
+      "pk": 15,
+      "fields": {
+        "first_name": "Mariah",
+        "last_name": "Carrey"
+      }
+    }
+  ]
