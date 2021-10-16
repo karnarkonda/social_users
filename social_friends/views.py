@@ -47,5 +47,47 @@ class CommonFriendView(APIView):
             frnds = [{"id": x.id, "first_name": x.first_name, "last_name": x.last_name} for x in common_frnds]
         except Exception as err:
             return JsonResponse({"data": frnds, "status_code": 400, "message": str(err)}, safe=False)
-
+ 
         return JsonResponse({"data": frnds, "status_code": 200, "message": "success"}, safe=False)
+
+class PotentialFriendView(APIView):
+    def get(self, request):
+        user_id = request.query_params.get('user_id')
+        potential_friends = set()
+        frnds = []
+        
+        def check_friends_depth(frnd):
+            if frnd.friends.filter(id=user_id).count() == 0:
+                potential_friends.add(frnd)
+                return True
+            else:
+                return False
+            
+        try:
+            if user_id:
+                frnds = SocialMediaUser.objects.get(id=user_id).friends.all()
+                [tuple(filter(check_friends_depth, _fof.friends.exclude(id=user_id))) for _fof in frnds]
+                frnds = [{"id": x.id, "first_name": x.first_name, "last_name": x.last_name} for x in potential_friends]
+        except Exception as err:
+            return JsonResponse({"data": [], "status_code": 400, "message": str(err)}, safe=False)
+ 
+        return JsonResponse({"data": frnds, "status_code": 200, "message": "success"}, safe=False)
+
+class AddFriendView(APIView):
+    def post(self, request):
+        message = "Added successfully"
+        user_id = request.data.get("user_id", None)
+        friends = request.data.get("friends")
+        try:
+            if user_id:
+                user = SocialMediaUser.objects.get(id=user_id)
+                for frnd in friends:
+                    user.friends.add(SocialMediaUser.objects.create(first_name = str(frnd['first_name']), last_name = str(frnd['last_name'])))
+            else:
+                message = "Missing query parameters"
+
+        except Exception as err:
+            return JsonResponse({"status_code": 200, "message": str(err)}, safe=False)
+
+        return JsonResponse({"status_code": 200, "message": message}, safe=False)
+           

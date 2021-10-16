@@ -8,115 +8,267 @@
       }
     },
     {
-        "model": "social_friends.socialmediauser_friends",
-        "pk": 2,
-        "fields": {
-          "from_socialmediauser_id": 1,
-          "to_socialmediauser_id": 5
-        }
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 2,
+      "fields": {
+        "from_socialmediauser_id": 4,
+        "to_socialmediauser_id": 1
+      }
     },
     {
         "model": "social_friends.socialmediauser_friends",
         "pk": 3,
         "fields": {
           "from_socialmediauser_id": 1,
-          "to_socialmediauser_id": 6
+          "to_socialmediauser_id": 5
         }
     },
     {
-        "model": "social_friends.socialmediauser_friends",
-        "pk": 4,
-        "fields": {
-          "from_socialmediauser_id": 1,
-          "to_socialmediauser_id": 13
-        }
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 4,
+      "fields": {
+        "from_socialmediauser_id": 5,
+        "to_socialmediauser_id": 1
+      }
     },
     {
         "model": "social_friends.socialmediauser_friends",
         "pk": 5,
         "fields": {
           "from_socialmediauser_id": 1,
+          "to_socialmediauser_id": 6
+        }
+    },
+    {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 6,
+      "fields": {
+        "from_socialmediauser_id": 6,
+        "to_socialmediauser_id": 1
+      }
+    },
+    {
+        "model": "social_friends.socialmediauser_friends",
+        "pk": 7,
+        "fields": {
+          "from_socialmediauser_id": 1,
+          "to_socialmediauser_id": 13
+        }
+    },
+    {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 8,
+      "fields": {
+        "from_socialmediauser_id": 13,
+        "to_socialmediauser_id": 1
+      }
+    },
+    {
+        "model": "social_friends.socialmediauser_friends",
+        "pk": 9,
+        "fields": {
+          "from_socialmediauser_id": 1,
           "to_socialmediauser_id": 15
         }
     },
     {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 10,
+      "fields": {
+        "from_socialmediauser_id": 15,
+        "to_socialmediauser_id": 1
+      }
+    },
+    {
         "model": "social_friends.socialmediauser_friends",
-        "pk": 6,
+        "pk": 11,
         "fields": {
           "from_socialmediauser_id": 2,
           "to_socialmediauser_id": 7
         }
     },
     {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 12,
+      "fields": {
+        "from_socialmediauser_id": 7,
+        "to_socialmediauser_id": 2
+      }
+    },
+    {
         "model": "social_friends.socialmediauser_friends",
-        "pk": 7,
+        "pk": 13,
         "fields": {
           "from_socialmediauser_id": 2,
           "to_socialmediauser_id": 8
         }
     },
     {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 14,
+      "fields": {
+        "from_socialmediauser_id": 8,
+        "to_socialmediauser_id": 2
+      }
+    },
+    {
         "model": "social_friends.socialmediauser_friends",
-        "pk": 8,
+        "pk": 15,
         "fields": {
           "from_socialmediauser_id": 2,
           "to_socialmediauser_id": 9
         }
     },
     {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 16,
+      "fields": {
+        "from_socialmediauser_id": 9,
+        "to_socialmediauser_id": 2
+      }
+    },
+    {
         "model": "social_friends.socialmediauser_friends",
-        "pk": 9,
+        "pk": 17,
         "fields": {
           "from_socialmediauser_id": 2,
           "to_socialmediauser_id": 13
         }
     },
     {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 18,
+      "fields": {
+        "from_socialmediauser_id": 13,
+        "to_socialmediauser_id": 2
+      }
+    },
+    {
         "model": "social_friends.socialmediauser_friends",
-        "pk": 10,
+        "pk": 19,
         "fields": {
           "from_socialmediauser_id": 2,
           "to_socialmediauser_id": 14
         }
     },
     {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 20,
+      "fields": {
+        "from_socialmediauser_id": 14,
+        "to_socialmediauser_id": 2
+      }
+    },
+    {
         "model": "social_friends.socialmediauser_friends",
-        "pk": 11,
+        "pk": 21,
         "fields": {
           "from_socialmediauser_id": 3,
           "to_socialmediauser_id": 10
         }
     },
     {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 22,
+      "fields": {
+        "from_socialmediauser_id": 10,
+        "to_socialmediauser_id": 3
+      }
+    },
+    {
         "model": "social_friends.socialmediauser_friends",
-        "pk": 12,
+        "pk": 23,
         "fields": {
           "from_socialmediauser_id": 3,
           "to_socialmediauser_id": 11
         }
     },
     {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 24,
+      "fields": {
+        "from_socialmediauser_id": 11,
+        "to_socialmediauser_id": 3
+      }
+    },
+    {
         "model": "social_friends.socialmediauser_friends",
-        "pk": 13,
+        "pk": 25,
         "fields": {
           "from_socialmediauser_id": 3,
           "to_socialmediauser_id": 12
         }
     },
     {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 26,
+      "fields": {
+        "from_socialmediauser_id": 12,
+        "to_socialmediauser_id": 3
+      }
+    },
+    {
         "model": "social_friends.socialmediauser_friends",
-        "pk": 14,
+        "pk": 27,
         "fields": {
           "from_socialmediauser_id": 3,
           "to_socialmediauser_id": 13
         }
     },
     {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 28,
+      "fields": {
+        "from_socialmediauser_id": 13,
+        "to_socialmediauser_id": 3
+      }
+    },
+    {
         "model": "social_friends.socialmediauser_friends",
-        "pk": 15,
+        "pk": 29,
         "fields": {
           "from_socialmediauser_id": 3,
           "to_socialmediauser_id": 14
         }
+    },
+    {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 30,
+      "fields": {
+        "from_socialmediauser_id": 14,
+        "to_socialmediauser_id": 3
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 31,
+      "fields": {
+        "from_socialmediauser_id": 5,
+        "to_socialmediauser_id": 10
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 32,
+      "fields": {
+        "from_socialmediauser_id": 4,
+        "to_socialmediauser_id": 14
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 33,
+      "fields": {
+        "from_socialmediauser_id": 10,
+        "to_socialmediauser_id": 5
+      }
+    },
+    {
+      "model": "social_friends.socialmediauser_friends",
+      "pk": 34,
+      "fields": {
+        "from_socialmediauser_id": 14,
+        "to_socialmediauser_id": 4
+      }
     }
   ]
